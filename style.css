@@ -100,3 +100,14 @@ nav a:active {
 .copyright {
   color: rgb(102, 9, 74);
 }
+.cards {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 200px;
+  border: 2px solid rgb(102, 9, 74);
+  padding: 16px;
+}
