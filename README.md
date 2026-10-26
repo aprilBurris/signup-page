@@ -23,3 +23,4 @@
 | 11 | Updated page | Add style to page, button and nav | main |
 | 12 | Updated page | Add second image and more style | main |
 | 13 | Updated page | Add card row with flexbox | main |
+| 14 | Updated page | Add inline vs block comparison | main |
