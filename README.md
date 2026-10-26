@@ -21,3 +21,4 @@
 | 9 | Updated page | Style the form | main |
 | 10 | Updated page | Add first image and alt text | main |
 | 11 | Updated page | Add style to page, button and nav | main |
+| 12 | Updated page | Add second image and more style | main | 
