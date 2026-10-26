@@ -2,19 +2,40 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   margin: 0 24px;
+  background-color: rgb(168, 137, 252);
 }
 
 h1 {
   color: rgb(247, 116, 208);
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  text-align: center;
 }
 h2 {
   color: rgb(247, 116, 208);
   font-size: 2rem;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  text-align: center;
 }
-
+h3 {
+  color: rgb(247, 116, 208);
+  font-size: 25px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+.intro p {
+  color: rgb(102, 9, 74);
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  color: rgb(235, 216, 229);
+  font-size: 20px;
+  Text-indent: 10px;
+}
+ul {
+  color: rgb(235, 216, 229);
+  font-size: 20px;
+}
 .box {
   margin: 32px 0;
   border: 4px solid rgb(102, 9, 74);
@@ -25,6 +46,7 @@ label {
   display: block;
   margin-top: 16px;
   font-weight: bold;
+  color: rgb(102, 9, 74);
 }
 
 input, select, textarea {
@@ -38,4 +60,44 @@ button {
   margin-top: 16px;
   padding: 10px 20px;
   font: inherit;
+  color: rgb(102, 9, 74);
+  background-color: rgb(247, 116, 208);
+  font-size: 20px;
+}
+.image {
+  display: block;
+  margin: 0 auto;
+}
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  color: #666;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+nav a {
+  margin: 0 12px;
+  text-decoration: underline;
+  color: rgb(255, 142, 221);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+nav a:hover {
+  text-decoration: wavy underline;
+}
+nav a:active {
+  color: rgb(102, 9, 74);
+}
+.image {
+  display: block;
+  margin: 0 auto;
+  border: 4px solid rgb(102, 9, 74);
+  border-radius: 8px;
 }
