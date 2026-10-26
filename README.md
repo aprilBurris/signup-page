@@ -17,3 +17,4 @@
 | 5 | Updated page | Add box around home section | main |
 | 6 | Updated page | Add paragraphs, headings, and unordered list | main |
 | 7 | Updated page | Add class to all sections | main |
+| 8 | Updated page | Add signup form | main |
