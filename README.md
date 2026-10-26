@@ -15,3 +15,4 @@
 | 3 | Updated page | Add basic styles | main |
 | 4 | Updated page | Add class to section and styled it | main |
 | 5 | Updated page | Add box around home section | main |
+| 6 | Updated page | Add paragraphs, headings, and unordered list | main |
