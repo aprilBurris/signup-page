@@ -85,16 +85,28 @@
    <section id="signup" class="box">
       <h2>Join Us!</h2>
       <p>Join us for a meeting for more details on Tay's Etiquette Club! Fill out the form below to sign up.</p>
-      <form>
-        <label for="parentname">Parent Name:</label>
-        <input type="text" id="parentname" name="parentname" required placeholder="Enter your full name">
-        <label for="parentemail">Parent Email:</label>
-        <input type="email" id="parentemail" name="parentemail" required placeholder="Enter your email address">
-        <label for="phonenumber">Parent Phone Number:</label>
-        <input type="tel" id="phonenumber" name="phonenumber" required placeholder="Enter your phone number">
-        <button type="submit">Sign Me Up</button>
-      </form>
-   </section>
+<form>
+   <label for="parentname">Parent Name</label>
+   <input type="text" id="parentname" name="parentname" required>
+
+   <label for="parentemail">Parent Email</label>
+   <input type="email" id="parentemail" name="parentemail" placeholder="you@example.com" required>
+
+   <label for="password">Create a password for the members' page</label>
+   <input type="password" id="password" name="password" required>
+
+   <label for="session">Which meeting can you come to?</label>
+   <select id="session" name="session">
+     <option value="first">First Saturday</option>
+     <option value="third">Second Saturday</option>
+     <option value="either">Either is fine</option>
+   </select>
+
+   <label for="message">Do your child/children have behavioral concerns?</label>
+   <textarea id="message" name="message" rows="4"></textarea>
+
+  <button type="submit">Sign me up</button>
+</form>
 
 </main>
 
