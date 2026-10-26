@@ -14,3 +14,4 @@
 | 2 | Updated page | Add page skeleton | main |
 | 3 | Updated page | Add basic styles | main |
 | 4 | Updated page | Add class to section and styled it | main |
+| 5 | Updated page | Add box around home section | main |
