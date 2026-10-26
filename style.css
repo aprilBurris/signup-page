@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0 24px;
+}
+
+h1 {
+  color: rgb(247, 116, 208);
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
