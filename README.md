@@ -26,3 +26,4 @@
 | 14 | Updated page | Add inline vs block comparison | main |
 | 15 | Updated page | Add password field | main |
 | 16 | Updated page | Lay out form with flexbox | main |
+| 17 | Updated page | Resized images | main|
