@@ -114,3 +114,15 @@ nav a:active {
 .compare * {
   outline: 2px dashed tomato;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 30rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
