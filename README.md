@@ -12,4 +12,5 @@
 |---|----------------|----------------|--------|
 | 1 | Made the repo on GitHub with a README | Initial commit | main |
 | 2 | Updated page | Add page skeleton | main |
-| 3 | Updated page | Add basic style | main |
+| 3 | Updated page | Add basic styles | main |
+| 4 | Updated page | Add class to section and styled it | main |
