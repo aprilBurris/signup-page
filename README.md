@@ -19,3 +19,4 @@
 | 7 | Updated page | Add class to all sections | main |
 | 8 | Updated page | Add signup form | main |
 | 9 | Updated page | Style the form | main |
+| 10 | Updated page | Add first image and alt text | main |
