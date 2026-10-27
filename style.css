@@ -1,8 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   margin: 0 24px;
-  background-color: rgb(168, 137, 252);
+  background-color: rgb(56, 92, 253);
 }
 
 h1 {
@@ -32,14 +35,23 @@ p {
   font-size: 20px;
   Text-indent: 10px;
 }
+div {
+  color:  rgb(235, 216, 229);
+}
 ul {
   color: rgb(235, 216, 229);
   font-size: 20px;
 }
 .box {
-  margin: 32px 0;
+  margin: 35px 0;
   border: 10px double rgb(102, 9, 74);
   padding: 48px;
+  background-color: rgb(51, 167, 245);
+}
+.box p {
+  color: rgb(247, 116, 208);
+  font-size: 30px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 label {
@@ -108,8 +120,15 @@ nav a:active {
 
 .card {
   flex: 1 1 200px;
-  border: 2px solid rgb(102, 9, 74);
+  border: 8px solid rgb(51, 167, 245);
   padding: 16px;
+  background-color: rgb(250, 114, 255);
+}
+.card h3 {
+  color: rgb(51, 167, 245);
+}
+.card p {
+  color: rgb(102, 9, 74);
 }
 .compare * {
   outline: 2px dashed tomato;
