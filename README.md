@@ -27,4 +27,4 @@
 | 15 | Updated page | Add password field | main |
 | 16 | Updated page | Lay out form with flexbox | main |
 | 17 | Updated page | Resized images | main|
-| 18 | Updated page | Add first JavaScript | main |
+| 18 | Updated page | Add first JavaScript and style | main |
