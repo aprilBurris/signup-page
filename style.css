@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -32,14 +35,14 @@ h3 {
 }
 p {
   color: rgb(235, 216, 229);
-  font-size: 20px;
-  Text-indent: 10px;
+  font-size: 22px;
+  text-indent: 10px;
 }
 div {
   color:  rgb(235, 216, 229);
 }
 ul {
-  color: rgb(235, 216, 229);
+  color: rgb(102, 9, 74);
   font-size: 20px;
 }
 .box {
@@ -49,16 +52,15 @@ ul {
   background-color: rgb(51, 167, 245);
 }
 .box p {
-  color: rgb(247, 116, 208);
-  font-size: 30px;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  color: rgb(102, 9, 74);
 }
 
 label {
   display: block;
   margin-top: 16px;
   font-weight: bold;
-  color: rgb(102, 9, 74);
+  color: rgb(247, 116, 208);
+  text-shadow: 1px 2px 2px rgb(0, 0, 0);
 }
 
 input, select, textarea {
@@ -76,6 +78,18 @@ button {
   background-color: rgb(247, 116, 208);
   font-size: 20px;
 }
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid rgb(247, 116, 208);
+  outline-offset: 2px;
+}
+
+input:user-invalid {
+  border: 2px solid crimson;
+}
+
 .copyright {
   text-align: center;
   font-size: 10px;
