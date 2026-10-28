@@ -170,6 +170,11 @@ nav a:active {
   color: rgb(102, 9, 74);
 }
 
+/* div style */
+div {
+  color: rgb(235, 216, 229);
+}
+
 /* draw dash line around every box in compare section*/
 .compare * {
   outline: 2px dashed tomato;
