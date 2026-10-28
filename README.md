@@ -32,3 +32,4 @@
 | 20 | Updated page | Add next meeting button | main |
 | 21 | Updated page | Add short help line under email box | main |
 | 22 | Updated page | Add pseudo-class style | main |
+| 23 | Updated page | Add comments and more edits | main |
