@@ -1,9 +1,14 @@
+/* changed the edges of label and input boxes */
 * {
   box-sizing: border-box;
 }
+
+/* smooth animated scroll for entire webpage */
 html {
   scroll-behavior: smooth;
 }
+
+/* body tag style  */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
@@ -11,40 +16,52 @@ body {
   background-color: rgb(56, 92, 253);
 }
 
+/* Title styles  */
 h1 {
   color: rgb(247, 116, 208);
-  font-size: 3rem;
+  font-size: 60px;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   text-align: center;
 }
+
+.intro p {
+  color: rgb(102, 9, 74);
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Heading styles */
 h2 {
   color: rgb(247, 116, 208);
   font-size: 2rem;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   text-align: center;
 }
+
 h3 {
   color: rgb(247, 116, 208);
   font-size: 25px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-.intro p {
-  color: rgb(102, 9, 74);
-  font-size: 40px;
-  text-align: center;
+
+h5 {
+  color: rgb(44, 44, 44);
 }
+
+/* Paragraph style */
 p {
   color: rgb(235, 216, 229);
   font-size: 22px;
   text-indent: 10px;
 }
-div {
-  color:  rgb(235, 216, 229);
-}
+
+/* Unordered list style*/
 ul {
   color: rgb(102, 9, 74);
   font-size: 20px;
 }
+
+/* Box attribute style */
 .box {
   margin: 35px 0;
   border: 10px double rgb(102, 9, 74);
@@ -52,10 +69,12 @@ ul {
   padding: 48px;
   background-color: rgb(51, 167, 245);
 }
+
 .box p {
   color: rgb(102, 9, 74);
 }
 
+/* Form style for label, input, select, textarea and button */
 label {
   display: block;
   margin-top: 16px;
@@ -80,6 +99,7 @@ button {
   font-size: 20px;
 }
 
+/* pseudo-class style on elements input, select and textarea */
 input:focus,
 select:focus,
 textarea:focus {
@@ -91,11 +111,14 @@ input:user-invalid {
   border: 2px solid crimson;
 }
 
+/* Image copytight style*/
 .copyright {
   text-align: center;
   font-size: 10px;
   color: #666;
 }
+
+/* Navigation style */
 nav {
   display: flex;
   flex-direction: row;
@@ -118,15 +141,16 @@ nav a:hover {
 nav a:active {
   color: rgb(102, 9, 74);
 }
+
+/* Images style */
 .image {
   display: block;
   margin: 0 auto;
   border: 15px double rgb(102, 9, 74);
   border-radius: 8px;
 }
-.copyright {
-  color: rgb(102, 9, 74);
-}
+
+/* class card and cards styles*/
 .cards {
   display: flex;
   gap: 16px;
@@ -145,9 +169,13 @@ nav a:active {
 .card p {
   color: rgb(102, 9, 74);
 }
+
+/* draw dash line around every box in compare section*/
 .compare * {
   outline: 2px dashed tomato;
 }
+
+/* Form and field style*/
 form {
   display: flex;
   flex-direction: column;

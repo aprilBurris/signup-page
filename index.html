@@ -25,7 +25,7 @@
      <p class="copyright">Photo by <a href="https://unsplash.com/@roosso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">alex Roosso</a> on <a href="https://unsplash.com/photos/woman-in-elegant-dress-sitting-on-sofa-mNOCQM6x61s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 
 <main>
-  <!-- Who are we? section -->
+  <!-- Section 1 -->
     <section id="about" class="box">
       <h2>Who We are?</h2>
         <p>We are an organization that teaches young lady's and gentlemen how to be their best selves. We want to help parents teach their children how to be women and men with class.</p>
@@ -37,7 +37,7 @@
 <p id="next-meeting"></p>
    </section>
    
-   <!-- About the club section -->
+   <!-- Section 2 -->
    <section id="what-we-offer" class="box">
       <h2>About the club</h2>
 
@@ -49,7 +49,7 @@
        <!-- list of about club and club activities -->
        <h3>Age Requirements and schedule:</h3>
          <p>To enter this club you have to be ages 9 to 17 years old.</p>
-         <p>The club will meet Monday through Friday from 4:00 PM to 6:00 PM and Saturday from 9:00 AM to 1:00 PM.</p>
+         <p>The club will meet Monday, Wednesday and Friday from 4:00 PM to 6:00 PM and Saturday from 9:00 AM to 1:00 PM.</p>
 
         <h3>What your child will learn:</h3>
         <ul>
@@ -71,75 +71,78 @@
       <h3>More details will be given at the information meeting.</h3>
     </section>
     
-    <!-- Reason to join section with cards -->
+    <!-- Section 3 -->
       <section id="reasons">
         <h2>Three reasons to join</h2>
-      <div class="cards">
-       <div class="card">
-         <h3>Great Life Skills</h3>
-           <p>We teach valuable life skills that will benefit your child for years to come.</p>
-       </div>
-       <div class="card">
-         <h3>Great Teachers</h3>
-           <p>Our teachers are experienced and passionate about helping your child succeed.</p>
+        <div class="cards">
+          <div class="card">
+            <h3>Great Life Skills</h3>
+            <p>We teach valuable life skills that will benefit your child for years to come.</p>
+          </div>
+          <div class="card">
+            <h3>Great Teachers</h3>
+            <p>Our teachers are experienced and passionate about helping your child succeed.</p>
+          </div>
+          <div class="card">
+            <h3>New friends</h3>
+            <p>Meet new people and make lasting friendships and family bonds.</p>
+          </div>
         </div>
-       <div class="card">
-         <h3>New friends</h3>
-           <p>Meet new people and make lasting friendships and family bonds.</p>
-        </div>
-      </div>
-    </section>
-  <!-- How i built the page section -->
-    <section id="how-built" class="compare">
-      <h2>How this page is built</h2>
-    <div>This is a div. It's a block.</div>
-      <p>This is a p. It's a block too, with a 
-        <span>span inside it</span> and a
-        <a href="#join">link</a>, which are inline.</p>
+      </section>
+
+    <!-- Section 4 -->
+      <section id="how-built" class="compare">
+        <h2>How this page is built</h2>
+          <div>This is a div. It's a block.</div> <p>This is a p. It's a block too, with a <span>span inside it</span> and a <a href="#join">link</a>, which are inline.</p>
     <!-- My explanation -->
       <p>The words in span tag and a tag are inline elements and stay inside the line. While the div is a block element and fills the entire width of its container.</p>
    </section>
-   <!-- Form section -->
+
+   <!-- Section 5 -->
      <section id="signup" class="box">
       <h2>Join Us!</h2>
         <p>Join us for a meeting for more details on Tay's Etiquette Club! Fill out the form below to sign up.</p>
-     <form>
-    <!-- Parent name section -->
+    <!-- Form start-->
+        <form>
+     <!-- Parent name label and input wrapped in div container -->
       <div class="field">
-       <label for="parentname">Parent Name</label>
+        <label for="parentname">Parent Name</label>
         <input type="text" id="parentname" name="parentname" required>
      </div>
 
-  <!-- Parent email section -->
-  <div class="field">
-    <label for="parentemail">Parent Email</label>
-    <input type="email" id="parentemail" name="parentemail" placeholder="you@example.com" required>
-  </div>
+     <!-- Parent email label and input wrapped in div container -->
+      <div class="field">
+        <label for="parentemail">Parent Email</label>
+        <input type="email" id="parentemail" name="parentemail" placeholder="you@example.com" required>
+        <h5>"We'll only use this information to send meeting confirmation."</h5>
+      </div>
 
-  <!-- Password section -->
-  <div class="field">
-    <label for="password">Create a password for the members' page</label>
-    <input type="password" id="password" name="password" required>
-  </div>
+     <!-- Password label and input wrapped in div container -->
+      <div class="field">
+        <label for="password">Create a password for the members' page</label>
+        <input type="password" id="password" name="password" required>
+      </div>
 
-  <!-- Which meeting section -->
-  <div class="field">
-    <label for="session">Which meeting can you come to?</label>
-    <select id="session" name="session">
-      <option value="first">November 7th @ 6:00 PM CT</option>
-      <option value="third">November 14th @ 6:00 PM CT</option>
-    </select>
-  </div>
+     <!-- Which meeting label and select dropdown with options wrapped in div container -->
+      <div class="field">
+        <label for="session">Which meeting will you be attending?</label>
+        <select id="session" name="session">
+         <option value="first">November 7th @ 6:00 PM CT</option>
+         <option value="third">November 14th @ 6:00 PM CT</option>
+        </select>
+     </div>
+     
+     <!-- Total amount of children label and input wrapped in div container-->
+     <div class="field">
+       <label for="amount">How many children will be joining?</label>
+       <textarea id="amount" name="amount" rows="4"></textarea>
+     </div>
+</div>
 
-  <!-- Do your child/children have behavioral concerns? section -->
-   <div class="field">
-     <label for="message">Do your child/children have behavioral concerns?</label>
-     <textarea id="message" name="message" rows="4"></textarea>
-   </div>
   <!-- Sign me up button -->
   <button type="submit">Sign me up</button>
 </form>
-
+<!-- Form end -->
 </main>
 
 <!-- footer -->

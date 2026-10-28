@@ -30,3 +30,5 @@
 | 18 | Updated page | Add first JavaScript and style | main |
 | 19 | Updated page | Add focus and invalid styles | main |
 | 20 | Updated page | Add next meeting button | main |
+| 21 | Updated page | Add short help line under email box | main |
+| 22 | Updated page | Add pseudo-class style | main |
