@@ -172,7 +172,7 @@ nav a:active {
 
 /* div style */
 div {
-  color: rgb(235, 216, 229);
+  color: rgb(243, 196, 228);
 }
 
 /* draw dash line around every box in compare section*/
@@ -192,4 +192,24 @@ form {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+/* Hero style */
+.hero {
+  background-color: rgb(0, 100, 0, 0.85);
+  color: rgb(253, 157, 223);
+  padding: 64px 24px;
+  text-align: center;
+  border-radius: 10px;
+}
+.hero p {
+  color: rgb(253, 168, 226);
+}
+.cta {
+  display: inline-block;
+  background-color: gold;
+  color: rgb(102, 9, 74);
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
