@@ -29,3 +29,4 @@
 | 17 | Updated page | Resized images | main|
 | 18 | Updated page | Add first JavaScript and style | main |
 | 19 | Updated page | Add focus and invalid styles | main |
+| 20 | Updated page | Add next meeting button | main |

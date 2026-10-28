@@ -48,6 +48,7 @@ ul {
 .box {
   margin: 35px 0;
   border: 10px double rgb(102, 9, 74);
+  border-radius: 20px;
   padding: 48px;
   background-color: rgb(51, 167, 245);
 }
