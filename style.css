@@ -180,7 +180,7 @@ div {
   outline: 2px dashed tomato;
 }
 
-/* Form and field style*/
+/* Form and field layout with flex*/
 form {
   display: flex;
   flex-direction: column;
