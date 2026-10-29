@@ -1,11 +1,16 @@
 # signup-page
 
-## My setup
-- Operating system: Windows
-- Editor: VsCode
-- Git version: git version 2.56.0.windows.2
-- Git name: April Burris
-- Git email: aprilsills247@gmail.com
+# title: Tay's Etiquette Club
+This  page is about a club that teaches your children how to be their best selves.
+
+[See it Live](https://aprilburris.github.io/signup-page/)
+
+## What I used
+
+- I used a tag to make buttons with words.
+- I used a CSS pseudo-class called root (the whole page) to declare variables. (make it)
+- I used a section tag to group my content within the web page.
+
 
 ## ACP log
 | # | What I changed | Commit message | Branch |
@@ -38,3 +43,4 @@
 | 26 | Updated club page | Add hero with call to action | main |
 | 27 | Updated club page | Add media query for hero | main |
 | 28 | Updated club page | Add dark mode | main |
+| 29 | Add README | Add README | main |
