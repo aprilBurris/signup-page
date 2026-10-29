@@ -37,3 +37,4 @@
 | 25 | Updated club page | Add comment | main |
 | 26 | Updated club page | Add hero with call to action | main |
 | 27 | Updated club page | Add media query for hero | main |
+| 28 | Updated club page | Add dark mode | main |

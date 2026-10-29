@@ -3,6 +3,19 @@
   box-sizing: border-box;
 }
 
+/* Dark mode button with css variables and javascript */
+:root {
+  /* make the variable */
+  --page-bg: rgb(67, 98, 236);
+  --text: black;
+  --brand: rgb(247, 116, 208);
+}
+
+h1 {
+  /* use the variable */
+  color: var(--brand);
+}
+
 /* smooth animated scroll for entire webpage */
 html {
   scroll-behavior: smooth;
@@ -13,12 +26,13 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
   margin: 0 24px;
-  background-color: rgb(56, 92, 253);
+  background-color: var(--page-bg);
+  color: var(--text);
 }
 
 /* Title styles  */
 h1 {
-  color: rgb(247, 116, 208);
+  color: var(--brand);
   font-size: 60px;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
   text-align: center;
@@ -32,14 +46,14 @@ h1 {
 
 /* Heading styles */
 h2 {
-  color: rgb(247, 116, 208);
+  color: var(--brand);
   font-size: 2rem;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   text-align: center;
 }
 
 h3 {
-  color: rgb(247, 116, 208);
+  color: var(--brand);
   font-size: 25px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
@@ -79,7 +93,7 @@ label {
   display: block;
   margin-top: 16px;
   font-weight: bold;
-  color: rgb(247, 116, 208);
+  color: var(--brand);
   text-shadow: 1px 2px 2px rgb(0, 0, 0);
 }
 
@@ -95,7 +109,7 @@ button {
   padding: 10px 20px;
   font: inherit;
   color: rgb(102, 9, 74);
-  background-color: rgb(247, 116, 208);
+  background-color: var(--brand);
   font-size: 20px;
 }
 
@@ -103,7 +117,7 @@ button {
 input:focus,
 select:focus,
 textarea:focus {
-  outline: 3px solid rgb(247, 116, 208);
+  outline: 3px solid var(--brand);
   outline-offset: 2px;
 }
 
@@ -115,7 +129,7 @@ input:user-invalid {
 .copyright {
   text-align: center;
   font-size: 10px;
-  color: #666;
+  color: #2b2a2a;
 }
 
 /* Navigation style */
@@ -131,7 +145,7 @@ nav {
 nav a {
   margin: 0 12px;
   text-decoration: underline;
-  color: rgb(255, 142, 221);
+  color: var(--brand);
   font-weight: bold;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
@@ -161,7 +175,7 @@ nav a:active {
   flex: 1 1 200px;
   border: 8px solid rgb(51, 167, 245);
   padding: 16px;
-  background-color: rgb(250, 114, 255);
+  background-color: var(--brand);
 }
 .card h3 {
   color: rgb(51, 167, 245);
@@ -196,11 +210,15 @@ form {
 
 /* Hero style */
 .hero {
-  background-color: rgb(0, 100, 0, 0.85);
-  color: white;
+  background-color: rgb(51, 167, 245);
   padding: 64px 24px;
   text-align: center;
+  border: 10px double rgb(102, 9, 74);
   border-radius: 10px;
+}
+
+.hero p {
+  color: rgb(102, 9, 74);
 }
 
 .cta {
@@ -213,9 +231,19 @@ form {
   font-weight: bold;
 }
 
-/* */
+/* Hero headline ofr wide screen */
 @media (min-width: 700px) {
   .hero h2 {
     font-size: 3rem;
   }
+}
+
+/* Variable dark mode values*/
+body.dark {
+  --page-bg: rgb(9, 31, 131);
+  --text: rgb(107, 106, 106);
+  --brand: rgb(253, 153, 223);
+}
+body.dark nav a {
+ color: lightblue; 
 }
