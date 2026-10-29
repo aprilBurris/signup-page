@@ -36,3 +36,4 @@
 | 24 | Updated club page | Add style to div | main |
 | 25 | Updated club page | Add comment | main |
 | 26 | Updated club page | Add hero with call to action | main |
+| 27 | Updated club page | Add media query for hero | main |
